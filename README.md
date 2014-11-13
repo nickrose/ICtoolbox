@@ -36,9 +36,8 @@ AIC_indv, BIC_indv:
 AIC_crossOnly, BIC_crossOnly: 
 	AIC and BIC for the cross fit only, not consider the PCA reduction of the individual channels
 
-
-
 *Bayesian IC is also known as MDL (minimum description length) criterion
+
 ====================================
 
 You are welcome to send a comment or question via the gitHub interface.
