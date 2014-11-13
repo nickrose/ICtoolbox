@@ -24,12 +24,16 @@ The key to the various Information Criteria is the following:
 AIC, BIC:
 	Akaike, Bayesian  IC
 	(Bayesian IC is also known as MDL (minimum description length) criterion)
+
 AIC_fsFit, BIC_fsFit:
 	AIC and BIC for the two-channel 'full signal' fit
+
 AIC_jointXFit, BIC_jointXFit:
 	AIC and BIC for the two-channel 'cross term' fit
+
 AIC_indv, BIC_indv:
 	AIC and BIC for the fit of each channel individually (non-joint solution)
+
 AIC_crossOnly, BIC_crossOnly: 
 	AIC and BIC for the cross fit only, not consider the PCA reduction of the individual channels
 
