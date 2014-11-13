@@ -21,9 +21,8 @@ For further information on how to use these functions, use the matlab help comma
 ====================================
 
 The key to the various Information Criteria is the following:
-AIC, BIC:
-	Akaike, Bayesian  IC
-	(Bayesian IC is also known as MDL (minimum description length) criterion)
+
+AIC, BIC: Akaike IC, Bayesian  IC*
 
 AIC_fsFit, BIC_fsFit:
 	AIC and BIC for the two-channel 'full signal' fit
@@ -36,6 +35,8 @@ AIC_indv, BIC_indv:
 
 AIC_crossOnly, BIC_crossOnly: 
 	AIC and BIC for the cross fit only, not consider the PCA reduction of the individual channels
+
+*Bayesian IC is also known as MDL (minimum description length) criterion
 
 ====================================
 
