@@ -22,6 +22,7 @@ For further information on how to use these functions, use the matlab help comma
 
 The key to the various Information Criteria is the following:
 AIC, BIC:
+
 	Akaike, Bayesian  IC
 	(Bayesian IC is also known as MDL (minimum description length) criterion)
 
