@@ -7,6 +7,15 @@ ICtoolbox  Copyright (C) 2014 Nicholas Roseveare
     This program comes with ABSOLUTELY NO WARRANTY; for details see the LICENSE file
     This is free software, and you are welcome to redistribute it
     under certain conditions; see LICENSE file for conditions
+    
+====================================
+
+Since this matlab code is offered freely, we only ask that if you borrow or modify any of this code that you please reference the original article located at:
+
+Model-order selection for analyzing correlation between two data sets using CCA with PCA preprocessing
+by N. Roseveare and P. J. Schreier
+
+http://dx.doi.org/10.1109/ICASSP.2015.7179060
 
 ====================================
 
