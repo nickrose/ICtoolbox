@@ -1,0 +1,114 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/github-dark.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>IC Toolbox</title>
+  <meta name="description" content="toolbox for two-channel joint model order identification (PCA-CCA-based)">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">IC Toolbox</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">toolbox for two-channel joint model order identification (PCA-CCA-based)</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/nickrose/ICtoolbox/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/nickrose/ICtoolbox/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/nickrose/ICtoolbox" class="code">View IC Toolbox on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1>
+<a id="ictoolbox" class="anchor" href="#ictoolbox" aria-hidden="true"><span class="octicon octicon-link"></span></a>ICtoolbox</h1>
+
+<p>toolbox for model order identification</p>
+
+<p>ICtoolbox  Copyright (C) 2014 Nicholas Roseveare
+    This program comes with ABSOLUTELY NO WARRANTY; for details see the LICENSE file
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; see LICENSE file for conditions</p>
+
+<h1></h1>
+
+<p>Since this matlab code is offered freely, we only ask that if you borrow or modify any of this code that you please reference the original article located at:</p>
+
+<p>Model-order selection for analyzing correlation between two data sets using CCA with PCA preprocessing
+by N. Roseveare and P. J. Schreier</p>
+
+<p><a href="http://dx.doi.org/10.1109/ICASSP.2015.7179060">http://dx.doi.org/10.1109/ICASSP.2015.7179060</a></p>
+
+<h1></h1>
+
+<p>For out-of-the-box functionality on</p>
+
+<ul>
+<li><p>Simulated two-channel data, use: 'mcInfoCriterionTest.m' and create reusable scenarios with ID numbers in 'loadParamsScenTest.m'</p></li>
+<li><p>Collected data (real or complex-proper), use: 'infoCriterion.m' - this is the main information criteria function which the above simulated data generator calls</p></li>
+</ul>
+
+<p>For further information on how to use these functions, use the matlab help command, or see the code preamble.</p>
+
+<h1></h1>
+
+<p>The key to the various Information Criteria is the following:</p>
+
+<p>AIC, BIC: Akaike IC, Bayesian  IC*</p>
+
+<p>AIC_fsFit, BIC_fsFit:
+    AIC and BIC for the two-channel 'full signal' fit</p>
+
+<p>AIC_jointXFit, BIC_jointXFit:
+    AIC and BIC for the two-channel 'cross term' fit</p>
+
+<p>AIC_indv, BIC_indv:
+    AIC and BIC for the fit of each channel individually (non-joint solution)</p>
+
+<p>AIC_crossOnly, BIC_crossOnly: 
+    AIC and BIC for the cross fit only, not consider the PCA reduction of the individual channels</p>
+
+<p>*Bayesian IC is also known as MDL (minimum description length) criterion</p>
+
+<h1></h1>
+
+<p>You are welcome to send a comment or question via the gitHub interface.</p>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/nickrose" class="avatar"><img src="https://avatars1.githubusercontent.com/u/5486921?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/nickrose">nickrose</a> maintains <a href="https://github.com/nickrose/ICtoolbox">IC Toolbox</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/nickrose/ICtoolbox/tarball/master" class="tar">tar</a><a href="https://github.com/nickrose/ICtoolbox/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
